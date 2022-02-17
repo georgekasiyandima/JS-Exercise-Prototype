@@ -94,10 +94,10 @@ function Baby() {}
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. When used in a function, the this keyword simply points to an object to which it is bound. It answers the question of where it should get some value or data from.
+  2. Whenever a function is called by a preceding dot, the object before that dot is this.
+  3. Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function.
+  4. Whenever JavaScript’s call or apply method is used, this is explicitly defined.
 */
 
 ///////// END OF CHALLENGE /////////
